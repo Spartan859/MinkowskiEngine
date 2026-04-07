@@ -17,6 +17,7 @@
 #ifndef CONCURRENT_UNORDERED_MAP_CUH
 #define CONCURRENT_UNORDERED_MAP_CUH
 
+#include <thrust/execution_policy.h>
 #include <cudf/detail/nvtx/ranges.hpp>
 #include <hash/hash_allocator.cuh>
 #include <hash/helper_functions.cuh>
